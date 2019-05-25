@@ -1,0 +1,18 @@
+{
+  "name": "acme-http-01-redis",
+  "version": "1.0.0",
+  "description": "Redis-backed challenge strategy for greenlock-express.js (and greenlock.js)",
+  "main": "index.js",
+  "repository": "git@github.com:mtmckenna/acme-http-01-redis.git",
+  "author": "Matt McKenna <matt@mtmckenna.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx node tests/index-test.js"
+  },
+  "devDependencies": {
+    "greenlock-challenge-test": "^3.0.2"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  }
+}
