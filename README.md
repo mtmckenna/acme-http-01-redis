@@ -29,7 +29,7 @@ const challenge = require("acme-http-01-redis").create({
 const glx = greenlock.create({
   challenges: { "http-01": challenge },
   // plus the rest of your setup
-});
+}).listen(80, 443);
 
 ```
 
